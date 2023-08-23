@@ -5,6 +5,10 @@ using namespace std;
 
 #include "Vehicle.cpp"
 
+#define GREEN_TEXT "\033[32m"
+#define RESET_COLOR "\033[0m"
+#define RED_TEXT "\033[31m"
+
 class ParkingLot {
 private:
     unordered_map<int, pair<bool, Vehicle>> parking_spots;
@@ -16,11 +20,11 @@ public:
     
     ParkingLot() {
         initialize_spots();
-        num_vacant_spots = 3; // Assuming all spots are initially vacant
+        num_vacant_spots = 6; // Assuming all spots are initially vacant
         num_occupied_spots = 0;
     }
     void initialize_spots() {
-        for (int i = 1001; i <= 1003; ++i) {
+        for (int i = 1001; i <= 1006; ++i) {
             parking_spots[i] = make_pair(false, Vehicle());
         }
     }
@@ -69,11 +73,26 @@ public:
     }
 
     void print_spot_status() const {
-        for (const auto& spot : parking_spots) {
-            string status = spot.second.first ? "Occupied" : "Vacant";
-            cout << "Spot " << spot.first << ": " << status << endl;
-           // cout << getVehicleAtSpot(spot.first).getLicensePlate()<<endl;
+        int iterationCount = 0;
+
+    for (const auto& spot : parking_spots) {
+        if (spot.second.first) {
+            cout << RED_TEXT<<spot.first <<RESET_COLOR<< " " << "[X]" << "   ";
+        } else {
+            cout <<GREEN_TEXT<< spot.first <<RESET_COLOR<< " " << "[ ]" <<"   ";
         }
+
+        iterationCount++;
+
+        if (iterationCount == 2) {
+            cout << endl;
+            iterationCount = 0; // Reset the iteration count
+        }
+       
+    }
+     if (iterationCount != 0) {
+        cout << endl;
+    }
      }
   
       

@@ -6,7 +6,6 @@ class Vehicle{
 private:
     std::string license_plate;
     std::string owner_name;
-   // std::string vehicle_type;
 
 public:
     Vehicle() : license_plate(""), owner_name("") {}

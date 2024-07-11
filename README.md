@@ -19,8 +19,7 @@ and reduces wait times.
 command line itself, ensuring that users of varying technical backgrounds can easily interact 
 with the system
 
-![Screenshot_2024-07-11-17-17-52-28_e2d5b3f32b79de1d45acd1fad96fbb0f](https://github.com/aayushsharma-15/Parking_Lot_Manager/assets/112269847/6b67a871-718d-49ab-8efb-e5900c601741)
-![Screenshot_2024-07-11-17-18-49-22_e2d5b3f32b79de1d45acd1fad96fbb0f](https://github.com/aayushsharma-15/Parking_Lot_Manager/assets/112269847/3c2723f7-aad0-4614-b041-5639f1ca1609)
+![Screenshot_2024-07-11-17-17-52-28_e2d5b3f32b79de1d45acd1fad96fbb0f](https://github.com/aayushsharma-15/Parking_Lot_Manager/assets/112269847/6b67a871-718d-49ab-8efb-e5900c601741)![Screenshot_2024-07-11-17-18-49-22_e2d5b3f32b79de1d45acd1fad96fbb0f](https://github.com/aayushsharma-15/Parking_Lot_Manager/assets/112269847/3c2723f7-aad0-4614-b041-5639f1ca1609)
 ![Screenshot_2024-07-11-17-18-18-83_e2d5b3f32b79de1d45acd1fad96fbb0f](https://github.com/aayushsharma-15/Parking_Lot_Manager/assets/112269847/636cd17e-8a9e-400f-bd48-29f13f2888ac)
 ![Screenshot_2024-07-11-17-17-26-54_e2d5b3f32b79de1d45acd1fad96fbb0f](https://github.com/aayushsharma-15/Parking_Lot_Manager/assets/112269847/fc6051f0-2cc6-4e33-85b5-3a4065e0b1df)
 ![Screenshot_2024-07-11-17-16-43-42_e2d5b3f32b79de1d45acd1fad96fbb0f](https://github.com/aayushsharma-15/Parking_Lot_Manager/assets/112269847/7708d9b9-1868-43e1-ae8f-11b04cf5c8a6)
